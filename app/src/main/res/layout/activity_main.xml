@@ -9,9 +9,12 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textAlignment="center"
         android:text="Hola Mundo Desde Kotlin!"
+        android:layout_marginTop="30dp"
         android:textColor="@color/color_titulos"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,15 +25,19 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="339dp"
-        android:layout_height="308dp"
+        android:layout_width="361dp"
+        android:layout_height="289dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
         app:srcCompat="@drawable/spiterman" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textAlignment="center"
         android:text="Soy el Spiterman"
+        android:layout_marginTop="30dp"
         tools:layout_editor_absoluteX="152dp"
         tools:layout_editor_absoluteY="206dp" />
 
