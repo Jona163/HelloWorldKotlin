@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">HelloWorldKotlin</string>
+    <string name="app_titulo">"Hola Mundo Desde Kotlin!"</string>
+    <string name="app_mensaje">Soy el Spiterman</string>
 </resources>
